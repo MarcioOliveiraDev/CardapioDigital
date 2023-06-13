@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    background: #040C18;
+}
+  
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    background: #ffffff;
+}
+  
+
+  
+.container button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
+    transform: scale(1.1);
+}
+h1{
+    
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.button-group button {
+  margin-bottom: 8px;
+}
+
+.update-button:hover {
+  background-color: yellow;
+}
+
+.delete-button:hover {
+  background-color: red;
+}
+
+.new-button:hover {
+  background-color: green;
+}
